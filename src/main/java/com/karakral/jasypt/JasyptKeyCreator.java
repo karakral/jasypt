@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class JasyptKeyCreator {
-
+    //TODO oops! there is a security issue we must encrypt the key. ENC is a good idea 
     private static final String SECRET_KEY = "njm7lY+11KYP/sstTVL370bbYuEROSbL";
     private static final String SET_ALGORITHM = "PBEWithMD5AndDES";
 
